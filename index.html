@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SD FITNESS CLUB</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#loginin">LogIn</a>
+                    <select name="LogIn" required>
+                        <option value="">Select</option>
+                        <option value="general">Admin</option>
+                        <option value="general">Trainer</option>
+                        <option value="membership">Customer</option>
+                        
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Gym</h1>
+            <p style="font-style: italic;">"Fitness is Not a Destination, It’s a Way of Life."</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <h3>Personal Training</h3>
+                <p>Get personalized training programs tailored to your needs.</p>
+            </div>
+            <div class="service-item">
+                <h3>Group Classes</h3>
+                <p>Join our group classes and stay motivated with others.</p>
+            </div>
+            <div class="service-item">
+                <h3>Nutrition Plans</h3>
+                <p>Receive customized nutrition plans to complement your workout.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say....</h2>
+        <div class="testimonial-items">
+            <div class="testimonial-item">
+                <p>"This Gym transformed my life. The trainers are amazing!"</p>
+                <span>- Rahul Ananadkar</span>
+            </div>
+            <div class="testimonial-item">
+                <p>"The group classes are so much fun and effective."</p>
+                <span>- Prasad Patil</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SD FITNESS CLUB</p>
+    </footer>
+
+</body>
+</html>
